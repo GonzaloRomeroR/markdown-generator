@@ -1,0 +1,8 @@
+
+
+import os
+import pathlib
+import sys
+script_dir = pathlib.Path(__file__).parent.resolve()   #Current direcoty
+print(open(str(script_dir/'data/file.txt')).read())    #Read file in  given directory
+print('\n'.join(sys.path))   #Python packages must be installed somewhere on the Python search path to be imported by Python modules.
