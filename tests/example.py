@@ -21,7 +21,7 @@ file.writeText("This is a python library in Github.")
 #file.insertImage("imagen.png")
 file.insertSpace(2)
 
-file.insertLink("Enlace a Github", "www.github.com")
+file.insertLink("Link to Github", "www.github.com")
 
 file.insertSpace(2)
 matrix = [[1,2,3,4],[1,1,2,1],[1,0,0,0]]
